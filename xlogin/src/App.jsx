@@ -12,7 +12,7 @@ function App() {
  const handleSubmit=(e)=>{
 e.preventDefault();
 
-if(username=='username' && password=='password'){
+if(username=='user' && password=='password'){
   setDisplay('Welcome, user!');
   setBool(true)
 }
